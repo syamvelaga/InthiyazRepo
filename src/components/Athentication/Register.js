@@ -71,7 +71,7 @@ const Register = () => {
             // console.log("user registration succesfully done");
 
 
-            const data = await fetch(`${window.location.origin}/register`, {
+            const data = await fetch(`https://google-keep-note-backend-production.up.railway.app/register`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

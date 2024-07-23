@@ -52,7 +52,7 @@ const Login = () => {
             // console.log("user login succesfully done");
 
 
-            const data = await fetch(`${window.location.origin}/login`,{
+            const data = await fetch(`https://google-keep-note-backend-production.up.railway.app/login`,{
                 method:"POST",
                 headers:{
                     "Content-Type":"application/json"

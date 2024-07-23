@@ -22,7 +22,7 @@ function App() {
   const DashboardValid = async () => {
     let token = localStorage.getItem("usersdatatoken");
 
-    const res = await fetch(`${window.location.origin}/validuser`, {
+    const res = await fetch(`https://google-keep-note-backend-production.up.railway.app/validuser`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
